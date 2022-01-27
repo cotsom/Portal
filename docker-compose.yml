@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  portal:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+  mariadb:
+    image: mariadb
+    container_name: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: users
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
