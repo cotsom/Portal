@@ -1,0 +1,5 @@
+phpmyadmin/
+portal/portfolio/upload/
+!portal/portfolio/upload/.gitkeep
+**/.DS_Store
+
