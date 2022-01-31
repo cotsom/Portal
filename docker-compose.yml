@@ -6,6 +6,10 @@ services:
       context: .
     ports:
       - "8080:80"
+    environment:
+      DB_URL: mariadb
+      DB_USER: root
+      DB_PASSWORD: password
   mariadb:
     image: mariadb
     container_name: mariadb
