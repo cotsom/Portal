@@ -31,8 +31,8 @@
 		  		</ul>
 		  	</nav>
 		  	<div class="searchOther">
-		  		<a href="#"> <img src="../img/cart.png"> </a>
-		  		<a href="#"> <img class="magnifier" src="../img/magnifier.png" height="24" width="24"> </a>
+		  		<a href="#"> <img src="../../img/cart.png"> </a>
+		  		<a href="#"> <img class="magnifier" src="../../img/magnifier.png" height="24" width="24"> </a>
 		  	</div>
 		  	<div class="account-other">
 		  		<?php

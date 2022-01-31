@@ -8,7 +8,7 @@
 	<title>Waxom</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../css/main2.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -21,16 +21,16 @@
 
 	<section class="partners">
 		<div class="partners-logo">
-			<a href="#"><img class="partners-logo-img" src="../img/partners-logo1.png"></a>
+			<a href="#"><img class="partners-logo-img" src="../../img/partners-logo1.png"></a>
 		</div>
 		<div class="partners-logo partners-logo234 partners-logo2">
-			<a href="#"><img class="partners-logo-img" src="../img/partners-logo2.png"></a>
+			<a href="#"><img class="partners-logo-img" src="../../img/partners-logo2.png"></a>
 		</div>
 		<div class="partners-logo partners-logo234">
-			<a href="#"><img class="partners-logo-img" src="../img/partners-logo3.png"></a>
+			<a href="#"><img class="partners-logo-img" src="../../img/partners-logo3.png"></a>
 		</div>
 		<div class="partners-logo partners-logo234">
-			<a href="#"><img class="partners-logo-img" src="../img/partners-logo4.png"></a>
+			<a href="#"><img class="partners-logo-img" src="../../img/partners-logo4.png"></a>
 		</div>
 
 	</section>
@@ -85,10 +85,10 @@
 			<div class="footer1-block4">
 				<h2>Dribbble Widget</h2>
 				<div class="footer1-block4-wrp">
-					<div><img src="../img/footer1-block4-img1.png"></div>
-					<div><img src="../img/footer1-block4-img2.png"></div>
-					<div><img src="../img/footer1-block4-img3.png"></div>
-					<div><img src="../img/footer1-block4-img4.png"></div>
+					<div><img src="../../img/footer1-block4-img1.png"></div>
+					<div><img src="../../img/footer1-block4-img2.png"></div>
+					<div><img src="../../img/footer1-block4-img3.png"></div>
+					<div><img src="../../img/footer1-block4-img4.png"></div>
 				</div>
 			</div>
 		</div>

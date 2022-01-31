@@ -14,7 +14,7 @@
 	<title>Waxom</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../css/main2.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -74,7 +74,7 @@
 			<div class="spoiler">
 				<div class="button">Change username</div>
 				<div class="content">
-					<form action="changeName.php" method="POST">
+					<form action="changeName.php?id=<?php echo($_GET['id'])?>" method="POST">
 						<input class="change-name-input" type="text" name="changeName">
 						<input class="change-name-button" type="submit" name="changeNameSubmit">
 					</form>
@@ -83,7 +83,7 @@
 			<div class="spoiler">
 				<div class="button">Change avatar</div>
 				<div class="content">
-					<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="changeAvatar.php">
+					<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="changeAvatar.php?id=<?php echo($_GET['id'])?>">
 		                <span class="uploadFiles-span">Выберите файл:</span>
 		                <input type="file" name="filename" size="10" /><br /><br />
 		                <input class="avatar-btn" type="submit" value="Загрузить" />

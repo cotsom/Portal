@@ -8,8 +8,8 @@
 	<title>PHP llehS</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../css/main3.css">
+	<link rel="stylesheet" type="text/css" href="../../css/main2.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
 
 		<div class="projects-wrp">
 			<div class="projects-card">
-				<img src="img/project-photo1.png" class="projects-card-img">
+				<img src="../../img/project-photo1.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Claritas Etiam Processus</h3>
 					<span>Photography, Nature</span>
@@ -54,7 +54,7 @@
 				<button class="projects-card-btn-search"></button>
 			</div>
 			<div class="projects-card">
-				<img src="img/project-photo2.png" class="projects-card-img">
+				<img src="../../img/project-photo2.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Quam Nutamus Farum</h3>
 					<span>Graphic Design, Mock-Up</span>
@@ -63,7 +63,7 @@
 				<button class="projects-card-btn-search"></button>
 			</div>
 			<div class="projects-card">
-				<img src="img/project-photo3.png" class="projects-card-img">
+				<img src="../../img/project-photo3.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Usus Legentis Videntur</h3>
 					<span>Photography, Holiday</span>
@@ -72,7 +72,7 @@
 				<button class="projects-card-btn-search"></button>
 			</div>
 			<div class="projects-card">
-				<img src="img/project-photo4.png" class="projects-card-img">
+				<img src="../../img/project-photo4.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Claritas Etiam Processus</h3>
 					<span>Photography, Nature</span>
@@ -81,7 +81,7 @@
 				<button class="projects-card-btn-search"></button>
 			</div>
 			<div class="projects-card">
-				<img src="img/project-photo5.png" class="projects-card-img">
+				<img src="../../img/project-photo5.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Quam Nutamus Farum</h3>
 					<span>Graphic Design, Mock-Up</span>
@@ -90,7 +90,7 @@
 				<button class="projects-card-btn-search"></button>
 			</div>
 			<div class="projects-card">
-				<img src="img/project-photo6.png" class="projects-card-img">
+				<img src="../../img/project-photo6.png" class="projects-card-img">
 				<div class="projects-card-text-wrp">
 					<h3>Usus Legentis Videntur</h3>
 					<span>Photography, Holiday</span>
@@ -102,14 +102,18 @@
 		
 		<div class="uploadFiles">
 			<h2>Загрузка файла</h2>
-        	<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="uploadScript.php">
-        		<input type="text" name="name">
-                <br>
-                <textarea class="textarea"></textarea>
-                <span class="uploadFiles-span">Выберите файл:</span>
-                <input type="file" name="filename" size="10" /><br /><br />
-                <input class="projects-btn" type="submit" value="Загрузить" />
-            </form>
+			<div>
+	        	<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="uploadScript.php">
+	        		<input type="text" name="name">
+	                <br>
+	                <textarea class="textarea"></textarea>
+	                <div class="uploadFiles-div">
+	                	<span class="uploadFiles-span">Выберите файл:</span>
+	                	<input type="file" name="filename" size="10" /><br /><br />
+	                </div>
+	                <input class="projects-btn" type="submit" value="Загрузить" />
+	            </form>
+        	</div>
             <?php
 				#echo $_FILES['filename']['name'];
 				#echo("<img class='avatar' src=upload/".$_SESSION['avatar'].">");

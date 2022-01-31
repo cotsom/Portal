@@ -15,7 +15,7 @@ body{
 .greeting{
 	min-height: 1024px;
 	width: 100%;
-	background-image: url(../img/bg-header.png);
+	background-image: url(../../img/bg-header.png);
 	background-repeat: no-repeat;
 }
 
@@ -844,7 +844,7 @@ aside{
 .partners{
 	min-height: 489px;
 	width: 100%;
-	background-image: url(../img/partners-bg.png);
+	background-image: url(../../img/partners-bg.png);
 	background-repeat: no-repeat;
 	display: flex;
 	flex-wrap: wrap;

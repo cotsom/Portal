@@ -2,7 +2,7 @@
 	session_start();
 	include '../non-account-redirect.php';
 	header('Location: /portal/Profile?id='.$user['id'].'');
-	$id = $_SESSION['account'];
+	$id = $_GET['id'];
 	$_FILES['filename']['name'] = $id.'.png';
 	#echo($_FILES['filename']['name']);
 

@@ -7,7 +7,7 @@
 	<title>Waxom</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/main2.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -48,8 +48,8 @@
 		  		</ul>
 		  	</nav>
 		  	<div class="search">
-		  		<a href="#"> <img src="img/cart.png"> </a>
-		  		<a href="#"> <img class="magnifier" src="img/magnifier.png" height="24" width="24"> </a>
+		  		<a href="#"> <img src="../img/cart.png"> </a>
+		  		<a href="#"> <img class="magnifier" src="../img/magnifier.png" height="24" width="24"> </a>
 		  	</div>
 		  	<div class="account">
 		  		<?php
@@ -60,13 +60,13 @@
 
 		<div class="carousel">
 			<div class="carousel-wrp">
-				<a href="#" class="carousel-btn arrow-left"><img src="img/arrow-left.png"></a>
+				<a href="#" class="carousel-btn arrow-left"><img src="../img/arrow-left.png"></a>
 				<div class="carousel-wrp-txt">
 					<h2 align="center">Welcome to our portal</h2>
 					<h1 align="center">Portfolio PSD Template</h1>
 					<p align="center">Nam liber tempor cum soluta nobis eleifend option congue nihil </p>
 				</div>
-				<a href="#" class="carousel-btn arrow-right"><img src="img/arrow-right.png"></a>
+				<a href="#" class="carousel-btn arrow-right"><img src="../img/arrow-right.png"></a>
 			</div>
 
 			<a href="#" class="start-btn">
