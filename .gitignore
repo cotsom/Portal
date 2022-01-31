@@ -1,5 +1,5 @@
 phpmyadmin/
-portal/portfolio/upload/
-!portal/portfolio/upload/.gitkeep
+src/portal/portfolio/upload/
+!src/portal/portfolio/upload/.gitkeep
 **/.DS_Store
 
