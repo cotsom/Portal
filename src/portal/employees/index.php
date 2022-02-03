@@ -22,9 +22,9 @@
 		<?php
 			$result = mysqli_query($mysql, "SELECT * FROM `users_info`");
 			$users = mysqli_fetch_assoc($result);
-			echo("<div class='workers-list-body'><a href='worker-profile.php?id=".$users['id']."'>".$users['login']."</a></div>");
+			echo("<div class='workers-list-body'><a href='employee-profile.php?id=".$users['id']."'>".$users['login']."</a></div>");
 			while($row = mysqli_fetch_assoc($result)){
-		    	echo("<div class='workers-list-body'><a href='worker-profile.php?id=".$row['id']."'>".$row['login']."</a></div>");
+		    	echo("<div class='workers-list-body'><a href='employee-profile.php?id=".$row['id']."'>".$row['login']."</a></div>");
 			}
 		?>
 	</div>

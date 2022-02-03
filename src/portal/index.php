@@ -40,11 +40,11 @@
 		  	<nav>
 		  		<ul class="menu">
 		  			<li class="menu-link"> <a href="#">Home </a></li>
-		  			<li class="menu-link"> <a href="about/">About Us </a></li>
+		  			<li class="menu-link"> <a href="/portal/about/">About Us </a></li>
 		  			<li class="menu-link"> <a href="/portal/portfolio">Portfolio </a></li>
-		  			<li class="menu-link"> <a href="Posts/">Posts </a></li>
-		  			<li class="menu-link"> <a href="Workers/">Workers </a></li>
-		  			<li class="menu-link"> <a href="/portal/Profile?id=<?php echo($_SESSION['account'])?>">Profile </a></li>
+		  			<li class="menu-link"> <a href="/portal/posts/">Posts </a></li>
+		  			<li class="menu-link"> <a href="/portal/employees/">Employees </a></li>
+		  			<li class="menu-link"> <a href="/portal/profile?id=<?php echo($_SESSION['account'])?>">Profile </a></li>
 		  		</ul>
 		  	</nav>
 		  	<div class="search">
@@ -53,7 +53,7 @@
 		  	</div>
 		  	<div class="account">
 		  		<?php
-					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3> </a> | <a class='logout' href='deauth.php'>logout</a>");
+					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3> </a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
 				?>
 		  	</div>
 		</header>

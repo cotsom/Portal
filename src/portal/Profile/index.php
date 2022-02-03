@@ -45,7 +45,7 @@
 
 		<div class="profile-post-form">
 			<br>
-			<form method="post" enctype="multipart/form-data" action="post-logic.php?id=<?php echo($_GET['id'])?>">
+			<form method="post" enctype="multipart/form-data" action="/portal/profile/post-logic.php?id=<?php echo($_GET['id'])?>">
 				<textarea class="user-post-textarea" name="post-text"></textarea>
 				<br>
 				<input class="projects-btn" type="submit" value="Опубликовать" />

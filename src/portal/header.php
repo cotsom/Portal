@@ -25,9 +25,9 @@
 		  			<li class="menu-link"> <a href="/portal/">Home </a></li>
 		  			<li class="menu-link"> <a href="/portal/about/">About Us </a></li>
 		  			<li class="menu-link"> <a href="/portal/portfolio">Portfolio </a></li>
-		  			<li class="menu-link"> <a href="/portal/Posts/">Posts </a></li>
-		  			<li class="menu-link"> <a href="/portal/Workers/">Workers </a></li>
-		  			<li class="menu-link"> <a href="/portal/Profile?id=<?php echo($_SESSION['account'])?>">Profile </a></li>
+		  			<li class="menu-link"> <a href="/portal/posts/">Posts </a></li>
+		  			<li class="menu-link"> <a href="/portal/employees/">Employees </a></li>
+		  			<li class="menu-link"> <a href="/portal/profile?id=<?php echo($_SESSION['account'])?>">Profile </a></li>
 		  		</ul>
 		  	</nav>
 		  	<div class="searchOther">
@@ -39,7 +39,7 @@
 		  			$id = $_SESSION['account'];
 		  			$result = mysqli_query($mysql, "SELECT * FROM `users_info` WHERE `id` = '$id'");
 					$user = mysqli_fetch_assoc($result);
-					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3></a> | <a class='logout' href='../deauth.php'>logout</a>");
+					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3></a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
 				?>
 		  	</div>
 		</header>
