@@ -53,7 +53,7 @@
 		  	</div>
 		  	<div class="account">
 		  		<?php
-					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3> </a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
+					echo("<a href='/portal/profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3> </a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
 				?>
 		  	</div>
 		</header>

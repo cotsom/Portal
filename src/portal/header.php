@@ -39,7 +39,7 @@
 		  			$id = $_SESSION['account'];
 		  			$result = mysqli_query($mysql, "SELECT * FROM `users_info` WHERE `id` = '$id'");
 					$user = mysqli_fetch_assoc($result);
-					echo("<a href='/portal/Profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3></a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
+					echo("<a href='/portal/profile?id=".$_SESSION['account']."'> <h3>".$user['login']."</h3></a> | <a class='logout' href='/portal/deauth.php'>logout</a>");
 				?>
 		  	</div>
 		</header>

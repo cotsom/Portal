@@ -28,7 +28,7 @@
 	<section class="profile-section">
 		<div class="block-avatar">
 			<div class="avatar">
-				<img class="avatar-pic" src="avatars/<?php echo($_GET['id'])?>.png">
+				<img class="avatar-pic" src="profile/avatars/<?php echo($_GET['id'])?>.png">
 			</div>
 			<h1 class="username">
 			<?php
@@ -41,6 +41,7 @@
 			}
 			echo($user['login']);?></h1>
 
+			<h2 class="username" id="card"><?php echo($user['card']);?></h2>
 		</div>
 
 		<div class="profile-post-form">
@@ -74,7 +75,7 @@
 			<div class="spoiler">
 				<div class="button">Change username</div>
 				<div class="content">
-					<form action="changeName.php?id=<?php echo($_GET['id'])?>" method="POST">
+					<form action="profile/changeName.php?id=<?php echo($_GET['id'])?>" method="POST">
 						<input class="change-name-input" type="text" name="changeName">
 						<input class="change-name-button" type="submit" name="changeNameSubmit">
 					</form>
@@ -83,11 +84,19 @@
 			<div class="spoiler">
 				<div class="button">Change avatar</div>
 				<div class="content">
-					<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="changeAvatar.php?id=<?php echo($_GET['id'])?>">
+					<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="profile/changeAvatar.php?id=<?php echo($_GET['id'])?>">
 		                <span class="uploadFiles-span">Выберите файл:</span>
 		                <input type="file" name="filename" size="10" /><br /><br />
 		                <input class="avatar-btn" type="submit" value="Загрузить" />
 		            </form>
+				</div>
+			</div>
+			<div class="spoiler">
+				<div class="button">Delete account</div>
+				<div class="content">
+					<form action="profile/deleteAccount.php" method="POST">
+						<input class="change-name-button" type="submit" name="changeNameSubmit">
+					</form>
 				</div>
 			</div>
 		</div>

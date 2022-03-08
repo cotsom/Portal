@@ -5,5 +5,5 @@
 	$id = $_GET['id'];
 	$newName = $_POST['changeName'];
 	$query = mysqli_query($mysql, "UPDATE `users_info` SET `login` = '$newName' WHERE `id` = '$id'");
-	header('Location: /portal/Profile?id='.$user['id'].'');
+	header('Location: /portal/profile?id='.$user['id'].'');
 ?>

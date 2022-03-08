@@ -103,7 +103,7 @@
 		<div class="uploadFiles">
 			<h2>Загрузка файла</h2>
 			<div>
-	        	<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="uploadScript.php">
+	        	<form class="uploadFiles-form" method="post" enctype="multipart/form-data" action="portfolio/uploadScript.php">
 	        		<input type="text" name="name">
 	                <br>
 	                <textarea class="textarea"></textarea>
